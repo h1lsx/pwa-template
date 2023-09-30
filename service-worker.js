@@ -2,9 +2,16 @@ const CACHE_NAME = 'pwa-cache-v1'; // Change this to update the cache
 const cacheUrls = [
     '/',
     '/index.html', // Add any other HTML files you have
-    '/styles.css',
+    '/dark.css',
     '/app.js',
-    '/pwa.png',
+    '/icon.png',
+    '/favicon.ico',
+    '/localforage.js',
+    '/manifest.json',
+    '/audio-worklet.js',
+    '/build/',
+    '/build/nds.wasm',
+    '/build/nds.js',
     // Add other assets and resources you want to cache
 ];
 
